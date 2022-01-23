@@ -62,6 +62,41 @@
         font-weight: bold;
         border-radius: 5px;
     }
+    h4 {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 22px;
+    }
+    .three-columns {
+        font-size: 0;
+        padding: 35px 0 20px;
+    }
+    .three-columns .column {
+        width: 100%;
+        max-width: 200px;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .three-columns .padding {
+        padding: 25px;
+
+    }
+    .three-columns .content {
+        font-size: 15px;
+        line-height: 20px;
+
+    }
+    .two-columns .last {
+        padding: 35px 0;
+    }
+    .two-columns .padding {
+        padding: 20px;
+    }
+    .two-columns .content{
+        text-align: left;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
 
 </style>
 </head>
@@ -73,19 +108,20 @@
 
 <!-- BORDER -->
             <tr>
-                <td height="8px" style="background-color: black;"></td>
+                <td height="10px" style="background-color: black;"></td>
             </tr>
           			
 <!-- LOGO & SOCIAL MEDIA SECTION -->
             <tr>
                 <td style="padding: 14px 0 4px;">
                     <table width="100%">
+                        
                         <tr>
                             <td class="two-columns">
 
                                 <table class="column">
                                     <tr>
-                                        <td style="padding 0 22px 10px";>
+                                        <td style="padding: 0 22px 10px";>
                                             <a href="#"><img src="img/logo.png" alt="SailChimp" title="SailChimp" width="250px"></a>
                                         </td>
                                     </tr>
@@ -118,7 +154,7 @@
                 </td>
             </tr>
 			
-<!-- TITLE, TEXT & BUTTON -->
+<!-- TITLE, DESCRIPTION TEXT & BUTTON -->
             <tr>
                 <td style="padding: 20px 15px 50px;">
                     <table width="100%">
@@ -127,7 +163,7 @@
                             <td>
                                 <h3>HTML Email Template<span style="color: #c89800"> Course</span></h3>
                                 <p style="line-height: 23px; font-size: 15px; padding: 0 0 22px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores nostrum velit voluptas expedita minima quis numquam eos facere delectus quisquam, perspiciatis aspernatur, modi nisi corrupti laborum ut at ullam aliquam!</p>
-                                <a href="" class="button">View Course</a>
+                                <a href="#" class="button">View Course</a>
                             
                             </td>
                         </tr>
@@ -157,11 +193,66 @@
                                             <table class="content">
                                                 <tr>
                                                     <td>
-                                                       <a href="#"><img src="img/design.png" alt="" width="150"></a> 
-                                                        
+                                                        <a href="#"><img src="img/design.png" alt="" width="150"></a>
                                                     </td>
                                                 </tr>
+                                                
+                                                <tr>
+                                                    <td style="padding: 5px 0 10px;">
+                                                        <h4>Email Design</h4>
+                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat fuga sapiente, tempore nobis voluptas laborum accusamus quae rem reiciendis, tempora illum temporibus omnis ratione, unde architecto minus. Nostrum, eligendi aspernatur!
+                                                        </p>
+                                                    </td>                                                    
+                                                </tr>
                                             </table>
+
+                                        </td>
+                                    </tr>
+                                </table>
+
+
+                                <table class="column">
+                                    <tr>
+                                        <td class="padding">
+
+                                            <table class="content">
+                                                <tr>
+                                                    <td>
+                                                        <a href="#"><img src="img/marketing.png" alt="" width="150"></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="padding: 5px 0 10px;">
+                                                        <h4>Email Marketing</h4>
+                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat fuga sapiente, tempore nobis voluptas laborum accusamus quae rem reiciendis, tempora illum temporibus omnis ratione, unde architecto minus. Nostrum, eligendi aspernatur!
+                                                        </p>
+                                                    </td>                                                    
+                                                </tr>                                                
+                                            </table> 
+
+                                        </td>
+                                    </tr>
+                                </table>
+
+                                <table class="column">
+                                    <tr>
+                                        <td class="padding">
+
+                                            <table class="content">
+                                                <tr>
+                                                    <td>
+                                                        <a href="#"><img src="img/development.png" alt="" width="150"></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="padding: 5px 0 10px;">
+                                                        <h4>Development</h4>
+                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat fuga sapiente, tempore nobis voluptas laborum accusamus quae rem reiciendis, tempora illum temporibus omnis ratione, unde architecto minus. Nostrum, eligendi aspernatur!
+                                                        </p>
+                                                    </td>                                                    
+                                                </tr>                                                
+                                            </table>
+
                                         </td>
                                     </tr>
                                 </table>
@@ -169,6 +260,7 @@
                             </td>
                         </tr>
                     </table>
+
                 </td>
             </tr>
 			
@@ -177,10 +269,88 @@
                 <td height="2px" style="background-color: black;"></td>
             </tr>
 			
-<!-- TWO COLUMN SECTION -->
+<!-- LAST TWO COLUMN SECTION -->
+            <tr>
+                <td>
+                    <table width="100%">
+
+                        <tr>
+                            <td class="two-columns last">                                
+                                <table class="column">
+
+                                    <tr>
+                                        <td class="padding">
+                                            <table class="content">
+
+                                                <tr>
+                                                    <td>
+                                                        <a href="#"><img src="img/palette.png" alt="" width="260px"></a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+
+                                        </td>
+                                    </tr>
+                                </table>
+
+                                <table class="column">
+
+                                    <tr>
+                                        <td class="padding">                                            
+                                            <table class="content">
+
+                                                <tr>
+                                                    <td>
+                                                        <h4>Create Custom Designs</h4>
+                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum ab fugiat blanditiis porro quaerat, veniam quidem, deleniti quis, reprehenderit deserunt quasi doloribus nemo nesciunt voluptate distinctio in debitis necessitatibus voluptates.</p>
+                                                        <p style="padding-bottom: 15px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui quaerat labore molestiae, autem minima quam nobis fuga ea sequi vero, esse distinctio id. Nulla nisi necessitatibus dolorum autem, quos voluptatem.</p>
+                                                        <a href="#" class="button">HTML Email Course</a>
+                                                    </td>
+                                                </tr>                                   
+                                            </table>
+
+                                        </td>
+                                    </tr>
+                                </table>
+
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>            
 			
 <!-- FOOTER SECTION -->
-			
+            <tr>
+                <td style="background-color: #2b2e33; color: #fff;">
+                    <table style="width: 100%;">
+
+                        <tr>
+                            <td style="padding: 45px 20px;">
+                                <a href="#"><img src="img/logo.png" alt="" width="260"></a>
+
+                                <p style="padding: 5px 0 3px;">SailChimp HTML Template</p>
+                                <p style="padding: 3px;">123 Street Road, City, State 55555</p>
+
+                                <a href="#"><img src="img/facebook.png" alt="facebook" class="social"></a>
+                                <a href="#"><img src="img/twitter.png" alt="twitter" class="social"></a>
+                                <a href="#"><img src="img/youtube.png " alt="youtube" class="social"></a>
+                                <a href="#"><img src="img/linkedin.png" alt="linkedin" class="social"></a>
+                                <a href="#"><img src="img/instagram.png" alt="instagram" class="social"></a>
+                                <p style="padding: 10px;">
+                                    <a href="#" style="color: #fff;">SUBSCRIBE</a>                                
+                                </p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td height="10px" style="background-color: #000;"></td>
+                        </tr>
+
+                        
+                    </table>
+
+                </td>
+            </tr>
 
 		</table> <!-- End Main Class -->
 
